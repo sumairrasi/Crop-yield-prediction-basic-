@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet"  href="../static/css/style.css">
+</head>
+<body>
+    <div class="x1">
+        <div class="container">
+        
+        <h1 id="cls">Crop Yield prediction</h1>
+        <br>
+        
+        <h2 id="cls2">Enter the data </h2>
+        <form action="{{url_for('predict')}}" method="post" > 
+            
+            <input list="Areas" name="myAreas" placeholder="Choose Area" class="txt" required />
+            
+            <datalist id="Areas">
+                <option value="Albania">
+                <option value="Algeria">
+                <option value="Angola">
+                <option value="Argentina">
+                <option value="Armenia">
+                <option value="Australia">
+                <option value="Austria">
+                <option value="Azerbaijan">
+                <option value="Bahamas">
+                <option value="Bahrain">
+                <option value="Bangladesh">
+                <option value="Belarus">
+                <option value="Belgium">
+                <option value="Botswana">
+                <option value="Brazil">
+                <option value="Bulgaria">
+                <option value="Burkina Faso">
+                <option value="Burundi">
+                <option value="Cameroon">
+                <option value="Canada">
+                <option value="Central African Republic">
+                <option value="Chile">
+                <option value="Colombia">
+                <option value="Croatia">
+                <option value="Denmark">
+                <option value="Dominican Republic">
+                <option value="Ecuador">
+                <option value="Egypt">
+                <option value="El Salvador">
+                <option value="Eritrea">
+                <option value="Estonia">
+                <option value="Finland"> 
+                <option value="France">
+                <option value="Germany">
+                <option value="Ghana">
+                <option value="Greece">
+                <option value="Guatemala">
+                <option value="Guinea">
+                <option value="Guyana">
+                <option value="Haiti">
+                <option value="Honduras">
+                <option value="Hungary">
+                <option value="India">
+                <option value="Indonesia">
+                <option value="Iraq">
+                <option value="Ireland">
+                <option value="Italy">
+                <option value="Jamaica">
+                <option value="Japan">
+                <option value="Kazakhstan">
+                <option value="Kenya">
+                <option value="Latvia">
+                <option value="Lebanon">
+                <option value="Lesotho">
+                <option value="Libya">
+                <option value="Lithuania">
+                <option value="Madagascar">
+                <option value="Malawi">
+                <option value="Malaysia">
+                <option value="Mali">
+                <option value="Mauritania">
+                <option value="Mauritius">
+                <option value="Mexico">
+                <option value="Montenegro">
+                <option value="Morocco">
+                <option value="Mozambique">
+                <option value="Namibia">
+                <option value="Nepal">
+                <option value="Netherlands">
+                <option value="New Zealand">
+                <option value="Nicaragua">
+                <option value="Niger">
+                <option value="Norway">
+                <option value="Pakistan">
+                <option value="Papua New Guinea">
+                <option value="Peru">
+                <option value="Poland">
+                <option value="Portugal">
+                <option value="Qatar">
+                <option value="Romania">
+                <option value="Rwanda">
+                <option value="Saudi Arabia">
+                <option value="Senegal">
+                <option value="Slovenia">
+                <option value="South Africa">
+                <option value="Spain">
+                <option value="Sri Lanka">
+                <option value="Sudan">
+                <option value="Suriname">
+                <option value="Sweden">
+                <option value="Switzerland">
+                <option value="Tajikistan">
+                <option value="Thailand">
+                <option value="Tunisia">
+                <option value="Turkey">
+                <option value="Uganda"> 
+                <option value="Ukraine">
+                <option value="United Kingdom">
+                <option value="Uruguay">
+                <option value="Zambia">
+                <option value="Zimbabwe">
+                
+                
+                </option>
+              </datalist>
+            <br>
+            <br>
+            <input list="browsers" name="myBrowser" placeholder="Choose Item" class="txt1" required/>
+            <datalist id="browsers">
+              <option value="Maize">
+              <option value="Potatoes">
+              <option value="Rice, paddy">
+              <option value="Sorghum">
+              <option value="Soybeans">
+              <option value="Wheat">
+              <option value="Cassava">
+              <option value="Sweet potatoes">
+              <option value="Plantains and others">
+              <option value="Yams">
+              </option>
+            </datalist><br>
+            <br>
+            <input type="text" id="fname" name="SL" placeholder="Enter the year" class="txt2" required><br>
+            <br>
+            <input type="text" id="lname" name="PW" placeholder="Average Rainfall in mm" class="txt5" required><br>
+            <br>
+            <input type="text" id="lname" name="SW" placeholder="Pesticides in tonnes" class="txt3" required><br>
+            <br>
+            <input type="text" id="lname" name="PL" placeholder="Temperature in Celsius" class="txt4" required><br>
+            <br><br>
+            <input id="submit" type="submit" value="Submit">
+        </form>
+        </div>
+    </div>
+</body>
+</html>
