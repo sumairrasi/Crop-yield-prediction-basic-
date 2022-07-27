@@ -1,0 +1,131 @@
+#cls{
+    border-radius: 15px;
+    background: #494935;
+    padding: 20px;
+    width: 300px;
+    height: 35px;
+    color: white;
+    margin-inline: auto;
+    text-align: center;
+    
+}
+
+#cls2{
+    border-radius: 15px;
+    background: #494935;
+    padding: 20px;
+    width: 240px;
+    height: 35px;
+    color: white;
+    margin-inline: auto;
+    margin-top: 5px;
+    text-align: center;
+}
+.x1{
+    right: 0px;
+    width: 400px;
+    /* border: 3px solid #edf1e7; */
+    padding: 10px;
+    margin-left: 450px;
+    /*background-image:url("Homepage.jpeg"); */
+    
+}
+
+.x1,#cls{
+    padding:22px;
+}
+.x2{
+    /* margin: 71px;  */
+    width: 160px;
+    margin-left:70px;
+}
+
+#submit{
+    position:absolute;
+    left: 150px;
+    top:545px;
+    /*margin-right:50x;*/
+    padding: 10px 24px;
+    background-color: #807070;
+    border-radius: 12px;
+    margin-bottom: 160px;
+}
+
+body{
+    background-image: url("../images/Hpage3.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.txt{
+    border-radius: 50px;
+    width: 250px;
+    height: 30px;
+    
+}
+.txt1{
+    border-radius: 50px;
+    width: 250px;
+    height: 30px;
+    
+}
+.txt2{
+    border-radius: 50px;
+    width: 250px;
+    height: 30px;
+}
+.txt3{
+    border-radius: 50px;
+    width: 250px;
+    height: 30px;
+}
+.txt4{
+    border-radius: 50px;
+    width: 250px;
+    height: 30px;
+}
+.txt5{
+    border-radius: 50px;
+    width: 250px;
+    height: 30px;
+}
+
+#submit:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+#fname.placeholder{
+    text-size-adjust:50px ;
+}
+
+.txt::-webkit-input-placeholder {
+    color: rgb(10, 10, 10);
+    font-weight: bold;
+}
+.txt1::-webkit-input-placeholder {
+    color: rgb(10, 10, 10);
+    font-weight: bold;
+}
+.txt2::-webkit-input-placeholder {
+    color: rgb(10, 10, 10);
+    font-weight: bold;
+}
+.txt3::-webkit-input-placeholder {
+    color: rgb(10, 10, 10);
+    font-weight: bold;
+}
+.txt4::-webkit-input-placeholder {
+    color: rgb(10, 10, 10);
+    font-weight: bold;
+}
+.txt5::-webkit-input-placeholder {
+    color: rgb(10, 10, 10);
+    font-weight: bold;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
